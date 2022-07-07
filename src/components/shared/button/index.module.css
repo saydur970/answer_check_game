@@ -1,0 +1,24 @@
+.btn {
+  border: 0.1rem solid var(--color-primary);
+  background-color: var(--color-primary);
+  padding: 1rem 1.2rem;
+  font-size: 1.4rem;
+  color: #fff;
+  border-radius: 0.4rem;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, 
+            rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, 
+            rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+  cursor: pointer;
+  background-color: var(--color-primary_dark);
+}
+
+.btn:disabled {
+  color: rgba(0, 0, 0, 0.26);
+  background-color: rgba(0, 0, 0, 0.12);
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.12);
+  cursor: default;
+}

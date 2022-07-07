@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.operator_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.operator_item {
+  min-width: 8rem;
+  border: 0.2rem solid #212121;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin: 0 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  margin-top: 2rem;
+}
