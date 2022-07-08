@@ -1,0 +1,70 @@
+.centerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeContainer {
+  margin-top: 1rem;
+}
+
+.timeContainer > div {
+  height: 0.5rem;
+  margin: 5rem 0;
+}
+
+.gameBox {
+  margin-top: 2rem;
+}
+
+.gameBox > div {
+  text-align: center;
+  font-size: 2.5rem;
+  min-width: 15rem;
+}
+
+.question {
+  padding: 3rem 4rem;
+  margin: 0 2rem;
+  border: 0.2rem solid var(--color-dark);
+}
+
+.option {
+  padding: 3rem 4rem;
+  margin: 0 3rem;
+  
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px -2px, 
+  rgba(0, 0, 0, 0.14) 0px 8px 10px 0px, 
+  rgba(0, 0, 0, 0.12) 0px 2px 20px 0px;
+}
+
+.option:hover {
+  background-color: var(--color-primary_dark);
+}
+
+@media screen and (max-width: 600px) {
+
+  .gameBox > div {
+    font-size: 2rem;
+    min-width: 10rem;
+  }
+
+}
+
+.scoreCard {
+  margin-top: 8rem;
+}
+
+.scoreCard > div {
+  font-size: 3rem;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0.1rem solid var(--color-dark);
+}

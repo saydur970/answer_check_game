@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Operator } from './operator';
+import { Game } from './game';
 
 export type TyOperators = '+' | '-' | 'X' | '/';
 
@@ -15,6 +16,6 @@ export const App = () => {
     />
   }
 
-  return null;
+  return <Game operatorList={operatorList} setStartGame={setStartGame} />
 
 };
